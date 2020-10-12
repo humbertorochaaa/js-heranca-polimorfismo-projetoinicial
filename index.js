@@ -4,7 +4,8 @@ import { ContaPoupanca } from "./ContaPoupanca.js";
 
 const cliente1 = new Cliente("Humberto", 11122233309);
 
-const contaCorrenteHumberto = new ContaCorrente( cliente1, 1001);
+const contaCorrenteHumberto = new ContaCorrente(cliente1, 1001);
+
 contaCorrenteHumberto.depositar(500);
 contaCorrenteHumberto.sacar(100);
 
