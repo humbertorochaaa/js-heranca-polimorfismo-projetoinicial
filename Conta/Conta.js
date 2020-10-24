@@ -3,6 +3,9 @@ export class Conta {
         this._saldo = saldoInicial;
         this._cliente = cliente;
         this._agencia = agencia;
+        
+        console.log("Não e permitido a instância");
+        
        
     }
 
